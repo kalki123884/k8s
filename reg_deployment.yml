@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: regcontainer
-          imagePullPolicy: Never
-          image: test:1
+          #imagePullPolicy: Never
+          image: sivasankarinkollu1/test:1
           ports:
             - name: regport
               containerPort: 8000
