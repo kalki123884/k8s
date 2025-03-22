@@ -10,4 +10,4 @@ def test2(username: str):
   message="This is Canary deployment"
   return message
 if __name__ == "__main__":
-   uvicorn.run("test1:app",host="0.0.0.0",port=8000)
+   uvicorn.run("test2:app",host="0.0.0.0",port=8000)
