@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: cancontainer
-          imagePullPolicy: Never
+          #imagePullPolicy: Never
           image: sivasankarinkollu1/test:can
           ports:
             - name: canport
